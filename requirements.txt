@@ -10,3 +10,5 @@ langchain-experimental==0.3.4
 wikipedia==1.4.0
 arize-phoenix==7.6.0
 openinference-instrumentation-langchain==0.1.29
+langchain-huggingface==0.1.2
+chainlit==2.0.1
