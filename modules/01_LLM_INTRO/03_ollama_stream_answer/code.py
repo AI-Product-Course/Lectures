@@ -1,4 +1,6 @@
 import json
+from json import JSONDecodeError
+
 import requests
 
 
@@ -21,7 +23,10 @@ while prompt.lower() != "stop":
         response.raise_for_status()
         print("AI assistant: ", end="")
         for chunk_content in response.iter_content(chunk_size=1024):
-            chunk_data = json.loads(chunk_content)
-            print(chunk_data["response"], end="")
+            try:
+                chunk_data = json.loads(chunk_content)
+                print(chunk_data["response"], end="")
+            except JSONDecodeError as ex:
+                pass # в конце приходят некорректные символы, которые можно пропустить
         print("")
     prompt = input("You: ")
