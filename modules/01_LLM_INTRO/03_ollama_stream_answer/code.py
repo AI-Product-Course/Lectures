@@ -9,7 +9,7 @@ OLLAMA_PORT = "11434"
 SEND_MESSAGE_URL = "api/generate"
 URL = f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/{SEND_MESSAGE_URL}"
 
-MODEL_NAME = "llama3.2"
+MODEL_NAME = "llama3.2:3b"
 
 
 prompt = input("You: ")
