@@ -1,0 +1,86 @@
+/* Основные стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Стили для заголовка */
+h1 {
+    color: #4A90E2;
+    margin-bottom: 10px;
+}
+
+/* Стили для списка книг */
+ol {
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s;
+    max-width: 500px;
+}
+
+/* Эффект наведения для элементов списка */
+li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для текста в элементах списка */
+span {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+/* Стили для ссылки */
+a {
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Эффект наведения для ссылки */
+a:hover {
+    background-color: #6ea7e9;
+}
+
+/* Адаптивные стили */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    a {
+        padding: 8px 16px;
+    }
+}
+
+
+/* Стили для изображений */
+img {
+    display: block;
+    margin-bottom: 24px;
+    max-width: 100%; /* Ограничиваем максимальную ширину изображения */
+    height: auto; /* Автоматически подстраиваем высоту */
+    border-radius: 10px; /* Закругляем углы изображения */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+    transition: transform 0.3s, box-shadow 0.3s; /* Плавный переход для эффектов */
+}
+

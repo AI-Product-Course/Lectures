@@ -12,3 +12,10 @@ arize-phoenix==7.6.0
 openinference-instrumentation-langchain==0.1.29
 langchain-huggingface==0.1.2
 chainlit==2.0.1
+fastapi==0.115.6
+fastapi-cli==0.0.7
+locust==2.33.0
+aiofiles==23.2.1
+aiosmtplib==4.0.0
+passlib==1.7.4
+bcrypt==4.3.0

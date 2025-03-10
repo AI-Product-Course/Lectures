@@ -31,3 +31,8 @@ pip install -r requirements.txt
 
 - [Код к модулю по экспериментам](/modules/06_EXPERIMENTS)
 - [Код к модулю по прототипированию](/modules/07_CHAINLIT_PROTOTYPE)
+
+### Разработка API
+Модуль знакомит с фреймворками FastAPI, pytest, LangServe и технологией Docker
+
+- [Код к модулю](/modules/08_API)

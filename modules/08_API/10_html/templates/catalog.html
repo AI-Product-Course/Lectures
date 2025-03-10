@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Каталог</title>
+        <link href="/static/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Каталог книг</h1>
+        <ol>
+            {% for book in books %}
+            <li>
+                <span>{{ book.name }}</span>
+                <span>({{ book.year }})</span>
+                <span>—</span>
+                <span>{{ book.author }}</span>
+            </li>
+            {% endfor %}
+        </ol>
+        <a href="/">Вернуться на главную</a>
+    </body>
+</html>
