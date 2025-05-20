@@ -3,6 +3,7 @@ openai==1.59.4
 langchain==0.3.14
 langchain_ollama==0.2.2
 langchain-mistralai==0.2.4
+langgraph==0.2.61
 pydantic==2.10.4
 mistralai==1.2.6
 langchain-community==0.3.14
