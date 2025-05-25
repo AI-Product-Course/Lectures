@@ -3,7 +3,7 @@ from openai import OpenAI
 
 API_KEY = "ollama"
 BASE_URL = "http://localhost:11434/v1/"
-MODEL_NAME = "llama3.2"
+MODEL_NAME = "llama3.2:3b"
 
 
 client = OpenAI(
