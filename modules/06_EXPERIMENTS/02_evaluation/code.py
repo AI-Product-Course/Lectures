@@ -13,7 +13,7 @@ client = px.Client(endpoint="http://127.0.0.1:6006")
 dataset = client.get_dataset(name="hallucinations")
 
 llm = ChatMistralAI(
-    model="open-mistral-7b",
+    model="mistral-large-latest",
     temperature=0,
     mistral_api_key="..."
 )

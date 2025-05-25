@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from langchain_mistralai import ChatMistralAI
 
 llm = ChatMistralAI(
-    model="open-mistral-7b",
+    model="mistral-large-latest",
     temperature=0,
     mistral_api_key="..."
 )

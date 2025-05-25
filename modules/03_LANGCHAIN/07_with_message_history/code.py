@@ -11,7 +11,7 @@ chat_history = InMemoryChatMessageHistory()
 
 
 llm = ChatMistralAI(
-    model="open-mistral-7b",
+    model="mistral-large-latest",
     temperature=0,
     mistral_api_key="..."
 )

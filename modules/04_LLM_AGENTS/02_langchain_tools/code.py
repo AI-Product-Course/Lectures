@@ -19,7 +19,7 @@ def get_order_status(order_id: str = Field(description="Identifier of order")) -
 
 
 llm = ChatMistralAI(
-    model="open-mistral-7b",
+    model="mistral-large-latest",
     temperature=0,
     mistral_api_key="..."
 )
