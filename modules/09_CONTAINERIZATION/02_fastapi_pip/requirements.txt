@@ -1,0 +1,2 @@
+fastapi==0.115.6
+fastapi-cli==0.0.7

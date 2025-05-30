@@ -35,4 +35,5 @@ pip install -r requirements.txt
 ### Разработка API
 Модуль знакомит с фреймворками FastAPI, pytest, LangServe и технологией Docker
 
-- [Код к модулю](/modules/08_API)
+- [Код к модулю по API](/modules/08_API)
+- [Код к модулю по Docker](/modules/09_CONTAINERIZATION)
