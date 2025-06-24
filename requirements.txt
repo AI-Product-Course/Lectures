@@ -20,3 +20,4 @@ aiofiles==23.2.1
 aiosmtplib==4.0.0
 passlib==1.7.4
 bcrypt==4.3.0
+mcp==1.9.4
