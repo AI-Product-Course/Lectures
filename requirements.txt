@@ -21,3 +21,8 @@ aiosmtplib==4.0.0
 passlib==1.7.4
 bcrypt==4.3.0
 mcp==1.9.4
+asyncpg==0.30.0
+pgvector==0.4.1
+SQLAlchemy==2.0.36
+qdrant_client==1.14.3
+faker==37.4.0

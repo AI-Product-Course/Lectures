@@ -33,7 +33,12 @@ pip install -r requirements.txt
 - [Код к модулю по прототипированию](/modules/07_CHAINLIT_PROTOTYPE)
 
 ### Разработка API
-Модуль знакомит с фреймворками FastAPI, pytest, LangServe и технологией Docker
+Модуль знакомит с фреймворком FastAPI, технологией Docker, библиотекой uv
 
 - [Код к модулю по API](/modules/08_API)
 - [Код к модулю по Docker](/modules/09_CONTAINERIZATION)
+
+### Хранение данных
+Модуль знакомит с инструментами SQLite, PostgreSQL, DBeaver, Qdrant и фреймворком SQLAlchemy(+Alembic)
+
+- [Код к модулю по хранению данных](/modules/10_DATA_STORAGE)
