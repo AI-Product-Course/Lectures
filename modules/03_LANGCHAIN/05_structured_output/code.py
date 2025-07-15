@@ -9,8 +9,8 @@ llm = ChatMistralAI(
 
 
 class Person(BaseModel):
-    firstname: str = Field(description="fullname of hero")
-    lastname: str = Field(description="fullname of hero")
+    firstname: str = Field(description="firstname of hero")
+    lastname: str = Field(description="lastname of hero")
     age: int = Field(description="age of hero")
 
 
